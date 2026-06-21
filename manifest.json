@@ -3,6 +3,11 @@
   "name": "MakerWorld Zip Bypass",
   "version": "1.0",
   "description": "Intercepts MakerWorld zip downloads and delivers raw STLs directly.",
+  "icons": {
+    "16": "main.ico",
+    "48": "main.ico",
+    "128": "main.ico"
+  },
   "permissions": [
     "downloads",
     "storage",
