@@ -1,0 +1,10 @@
+# Chrome extension development
+*.crx
+*.pem
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

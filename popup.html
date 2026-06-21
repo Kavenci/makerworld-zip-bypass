@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MakerWorld Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 280px;
+      margin: 16px;
+      color: #111;
+    }
+    h1 {
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    input[type=checkbox] {
+      transform: scale(1.1);
+    }
+    .note {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <h1>MakerWorld STL Extractor</h1>
+  <label>
+    <input id="preserveZipToggle" type="checkbox" />
+    Preserve ZIP when multiple STL files are present
+  </label>
+  <p class="note">
+    When enabled, the original ZIP download is kept if more than one STL exists in the archive.
+  </p>
+  <script src="popup.js"></script>
+</body>
+</html>
