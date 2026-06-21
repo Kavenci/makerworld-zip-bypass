@@ -37,7 +37,7 @@ I got pissed off with makerworld downloading stl's in .zip files even if there i
 
 ## License
 
-This project is released under the GNU GPL V3 License.
+This project is released under the GPLv3 License.
 
 ## AI Usage
 
