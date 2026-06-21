@@ -1,4 +1,4 @@
-# MakerWorld Instant STL Extractor
+# MakerWorld Zip Bypass
 
 I got pissed off with makerworld downloading stl's in .zip files even if there is only one .zip file so made a simple Chrome extension that intercepts MakerWorld `.zip` downloads, extracts `.stl` files in memory, and downloads only the STL files.
 
